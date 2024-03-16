@@ -1,11 +1,33 @@
+:root {
+  --main-branding-color: #306221;
+}
 body {
-  background-color: rgb(43, 189, 226);
+  background-color: rgb(237, 234, 185);
 }
 h1 {
   text-align: center;
-  color: white;
+  color: black;
 }
-a {
-  color: white;
-  text-decoration: none;
+p {
+  text-align: center;
+  color: black;
+}
+.navigation {
+  text-align: center;
+  color: var(--main-branding-color);
+}
+.navigation a {
+  color: var(--main-branding-color);
+  cursor: pointer;
+}
+a:visited {
+  color: var(
+    --main-branding-color
+  ); /* Change the color to blue when the link has been visited */
+}
+.croissant-photo {
+  max-width: 75%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
 }
